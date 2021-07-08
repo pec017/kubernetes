@@ -26,5 +26,6 @@ jobs:
 #       run: make all
 #       run: go build -v ./...
 
-#     - name: Test
+    - name: Test
+      run: cmd/kubectl version
 #       run: go test -v ./...
